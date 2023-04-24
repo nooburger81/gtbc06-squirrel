@@ -1,0 +1,19 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+body{
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 60%;
+    height: 30vh;
+    border: .1rem solid black;
+}
