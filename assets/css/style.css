@@ -9,11 +9,57 @@ body{
 
 }
 
+header{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(2,0,36);
+background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 23%, rgba(14,76,191,1) 100%);
+}
+
 section{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    margin-bottom: 2rem;
     width: 60%;
     height: 30vh;
     border: .1rem solid black;
+    border-radius: .5rem;
+}
+
+.current-forecast .today{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px 0px 0px 120px;
+
+}
+
+.current-forecast .today .day{
+    font-size: 40px;
+
+}
+
+.other {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.future-forecast{
+    padding: 25px;
+    display: flex;
+    color: #030303;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-forecast .weather-forecast-item{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: .5rem;
 }
