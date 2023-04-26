@@ -12,59 +12,6 @@ header{
 background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 23%, rgba(14,76,191,1) 100%);
 }
 
-section{
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    width: 70%;
-    height: 20vh;
-    border: .1rem solid black;
-    border-radius: .5rem;
-    text-overflow: ellipsis;
-    overflow:hidden;
-    min-width:0;
-}
-
-.search-history button{
-    width: 50%;
-    height: 3rem;
-    border-radius: .5rem;
-    margin: 5px;
-}
-
-.time-zone{
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    font-size: 30px;
-}
-
-
-.current-forecast .today{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 5px;
-}
-
-.current-forecast .today .day{
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    font-size: 30px;
-}
-
-}
-
-.other {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
 .future-forecast{
     padding: 25px;
     display: flex;
@@ -81,11 +28,11 @@ section{
     border-radius: .5rem;
 }
 
-.search-history{
+#result{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: .5rem;
 }
-

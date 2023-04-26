@@ -14,26 +14,11 @@
     <h1>Weather Dashboard</h1>
 </header>
     <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Enter City Name" aria-label="Enter City Name" aria-describedby="button-addon2">
+        <input type="text" id="name" class="form-control" placeholder="Enter City Name" aria-label="Enter City Name" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
       </div>
 
-      <section id="current-city">
-      <div class="current-forecast">
-        <div class="today" id="current-temp">
-            <div class="place-container">
-                <div class="time-zone" id="time-zone">YourDreams/Nightmare</div>
-                <div id="country" class="country">IN</div>
-            </div>
-            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon" width="125" height="125">
-            <div class="other">
-                <div class="day">Monday</div>
-                <div class="temp">Temp: 65.00 F</div>
-                <div class="windspeed">Wind: 3.94 MPH</div>
-                <div class="humidity">Humidity: 65%</div>
-            </div>
-        </div>
-    </section>
+  <div id="result"></div>
 
     <div class="future-forecast">
         <div class="weather-forecast" id="weather-forecast">
@@ -84,14 +69,6 @@
     </div>
 
     <article class="search-history">
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
     </article>
 
 
